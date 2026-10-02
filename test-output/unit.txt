@@ -1,0 +1,51 @@
+
+> tripwire-api@1.0.0 test
+> node --test test/*.test.mjs
+
+✔ the loop calls tools, repairs a bad widget spec from the error, and stores a finding with widgets (39.812726ms)
+✔ an empty widget is refused so the model must loosen the filter (26.012093ms)
+✔ when Bedrock stays unavailable the board still gets findings, built by rules and labelled (17.371937ms)
+✔ an unchanged stream is not re-investigated: no model call (23.005638ms)
+✔ adaptive retry: throttles are retried with growing waits, then succeed (0.755552ms)
+✔ adaptive retry gives up with a typed error (0.451398ms)
+✔ a non-retryable Bedrock error is thrown at once (0.179143ms)
+✔ the four detectors each find their planted pattern (45.680067ms)
+✔ a quiet stream flags nothing (22.042239ms)
+✔ candidate evidence ids exist in the stream (10.981957ms)
+✔ health and board answer (11.374641ms)
+✔ webhook returns 200 immediately and hands the work to an async invocation (8.176095ms)
+✔ scan is rate limited per hour and queues an async run (8.613382ms)
+✔ finding status can be set, and unknown values and ids are refused (6.014981ms)
+✔ chat-built widgets pass through the same validators as the watcher (14.068339ms)
+✔ the Bedrock proxy relays Converse output, and says so plainly when the model is rate limited (13.059073ms)
+✔ unknown routes 404 with a message that says what was asked for (5.714076ms)
+✔ idempotency: a duplicate sender_batch_id is adopted as the same batch, and duplicate request ids count as success (0.202816ms)
+✔ activity: the payout is created with an idempotent batch id, polled to terminal, rows land in the stream, a scan is queued (11.871061ms)
+✔ series is zero-filled, contiguous and ends on the stream clock day (12.295326ms)
+✔ refund rate today is a proportion-test outlier against the 29 days before (8.789226ms)
+✔ a quiet stream does not produce an outlier (11.491905ms)
+✔ where filters apply to numerator and denominator (12.459592ms)
+✔ breakdown groups, sums and sorts (10.662156ms)
+✔ matches supports scalars, lists and range objects (0.174209ms)
+✔ intake keeps the PayPal signature headers and the untouched body for later verification (1.369041ms)
+✔ resourceIds collects ids from payout, invoice and capture shaped events (1.126141ms)
+✔ an event for another project on the same PayPal app is acknowledged and ignored, with no verify call (11.012525ms)
+✔ our event is verified with PayPal, then ingested, and the stream head moves (10.857966ms)
+✔ a tampered payload is rejected: PayPal says FAILURE, nothing is ingested (10.030997ms)
+✔ a body that is not JSON is rejected without calling PayPal (7.368261ms)
+✔ a good grid spec passes and is normalised (1.374137ms)
+✔ bad grid specs get exact, fixable errors (0.224454ms)
+✔ master/detail and row grouping are refused together (0.141271ms)
+✔ trend and breakdown validate metric, fields and sum fields (0.325767ms)
+✔ widget sizes are clamped to the minimum legible height (0.165643ms)
+✔ findings need a headline, a summary and actions (0.188938ms)
+✔ pack never overlaps and wraps at 24 tracks (0.967167ms)
+✔ board to Studio state: overview briefs, one page per finding, stack mode (1.092587ms)
+ℹ tests 39
+ℹ suites 0
+ℹ pass 39
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 272.470817

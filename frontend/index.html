@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Tripwire watches a PayPal sandbox stream for refund spikes, failing payouts, ageing invoices and dispute patterns, then builds the AG Grid and AG Charts widgets that explain what it found.">
+  <meta name="color-scheme" content="light dark">
+  <title>Tripwire</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23285B88'/%3E%3Cpath d='M4 20h8l4-9 4 12 3-6h5' fill='none' stroke='%23fff' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3Ccircle cx='16' cy='11' r='3' fill='%23FF9D5F'/%3E%3C/svg%3E">
+  <script>
+    (function () {
+      try { var t = localStorage.getItem('tw-theme'); document.documentElement.dataset.theme = (t === 'light' || t === 'dark') ? t : 'light'; } catch (e) { document.documentElement.dataset.theme = 'light'; }
+    })();
+  </script>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+</html>

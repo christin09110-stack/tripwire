@@ -1,0 +1,6 @@
+event PAYMENT.PAYOUTSBATCH.PROCESSING ad634d53-be16-11f1-9577-fd0009fed920
+1. original event       -> SUCCESS
+2. one field changed    -> FAILURE
+3. deployed listener    -> HTTP 200 in 2845 ms
+   recent deliveries    -> {"rejected":1,"processed":6,"ignored":1}
+   tampered delivery    -> rejected | PayPal reported the signature as FAILURE.

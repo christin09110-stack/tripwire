@@ -1,0 +1,17 @@
+const nf0 = new Intl.NumberFormat('en-US', { maximumFractionDigits: 0 });
+export const money = (v, cur = 'USD') => (v === null || v === undefined || v === '' ? '' : new Intl.NumberFormat('en-US', { style: 'currency', currency: cur, minimumFractionDigits: Math.abs(v) >= 1000 ? 0 : 2, maximumFractionDigits: Math.abs(v) >= 1000 ? 0 : 2 }).format(v));
+export const moneyExact = (v, cur = 'USD') => new Intl.NumberFormat('en-US', { style: 'currency', currency: cur }).format(v);
+export const pct = (v) => (v === 0 ? '0%' : `${(v * 100).toFixed(v < 0.1 ? 1 : 0)}%`);
+export const int = (v) => nf0.format(v);
+export const dt = (iso) => (iso ? new Date(iso).toLocaleString('en-GB', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit', timeZone: 'UTC' }) + ' UTC' : '');
+export const dtShort = (iso) => (iso ? new Date(iso).toLocaleString('en-GB', { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit', hour12: false, timeZone: 'UTC' }) : '');
+export const dayLabel = (d) => (d ? new Date(d.length === 10 ? d + 'T00:00:00Z' : d).toLocaleDateString('en-US', { day: 'numeric', month: 'short', timeZone: 'UTC' }) : '');
+export const trunc = (s, n = 22) => (s && s.length > n ? `${s.slice(0, n - 1)}…` : s || '');
+export const midTrunc = (s, n = 14) => (s && s.length > n ? `${s.slice(0, Math.ceil((n - 1) / 2))}…${s.slice(-Math.floor((n - 1) / 2))}` : s || '');
+export const sentence = (s) => (s ? String(s).replaceAll('_', ' ').toLowerCase().replace(/^./, (c) => c.toUpperCase()) : '');
+export const slugName = (s) => (s && /^[a-z0-9-]+$/.test(s) ? s.split('-').map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ') : s);
+export const STATUS_WORDS = { SUCCESS: 'Delivered', UNCLAIMED: 'Unclaimed', FAILED: 'Failed', PENDING: 'Pending', RETURNED: 'Returned', BLOCKED: 'Blocked', ONHOLD: 'On hold', PAID: 'Paid', UNPAID: 'Unpaid', SENT: 'Sent', CANCELLED: 'Cancelled', MARKED_AS_PAID: 'Paid', COMPLETED: 'Completed', PARTIALLY_REFUNDED: 'Part refunded', REFUNDED: 'Refunded', PARTIALLY_PAID: 'Part paid', DRAFT: 'Draft' };
+export const STATUS_TONE = { SUCCESS: 'ok', PAID: 'ok', MARKED_AS_PAID: 'ok', COMPLETED: 'ok', UNCLAIMED: 'warn', PENDING: 'info', FAILED: 'alert', BLOCKED: 'alert', RETURNED: 'alert', ONHOLD: 'warn', UNPAID: 'info', SENT: 'info', CANCELLED: 'info', PARTIALLY_REFUNDED: 'warn', REFUNDED: 'warn', PARTIALLY_PAID: 'warn' };
+export const TONE_GLYPH = { ok: '✓', warn: '◐', alert: '▲', info: '•' };
+export const SEVERITY = { high: { word: 'High', glyph: '▲▲▲' }, medium: { word: 'Medium', glyph: '▲▲' }, low: { word: 'Low', glyph: '▲' } };
+export const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));

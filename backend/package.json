@@ -1,0 +1,15 @@
+{
+  "name": "tripwire-api",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "license": "MIT",
+  "scripts": { "test": "node --test test/*.test.mjs", "dev": "node src/local.mjs" },
+  "devDependencies": {
+    "@aws-sdk/client-bedrock-runtime": "^3.700.0",
+    "@aws-sdk/client-dynamodb": "^3.700.0",
+    "@aws-sdk/lib-dynamodb": "^3.700.0",
+    "@aws-sdk/client-lambda": "^3.700.0",
+    "@aws-sdk/client-ssm": "^3.700.0"
+  }
+}

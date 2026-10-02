@@ -1,0 +1,38 @@
+
+## light theme, 1280x800, first finding page
+Body text 17.3px = 13.0pt (target 13pt)
+Interactive elements under 28x28pt (37.3px) in the app shell and widgets: none
+Text under the 10pt (13.3px) floor: none
+200% text size at a 640px viewport: scrollWidth 640 vs viewport 640 -> no horizontal scroll
+Tab order, first 12 stops:
+  a "Skip to the board" focus ring 3px
+  button "Scan the stream" focus ring 3px
+  button "Edit board" focus ring 3px
+  button "Details" focus ring 3px
+  button "Switch to the dark theme" focus ring 3px
+  button "▲▲▲ High2" focus ring 3px
+  button "▲▲ Medium2" focus ring 3px
+  button "Unreviewed only4" focus ring 3px
+  button "Agent trail for the last sca" focus ring 3px
+  div "" focus ring 3px
+  div "" focus ring 3px
+  div "" focus ring 3px
+
+## dark theme, 1280x800, first finding page
+Body text 17.3px = 13.0pt (target 13pt)
+Interactive elements under 28x28pt (37.3px) in the app shell and widgets: none
+Text under the 10pt (13.3px) floor: none
+200% text size at a 640px viewport: scrollWidth 640 vs viewport 640 -> no horizontal scroll
+Tab order, first 12 stops:
+  a "Skip to the board" focus ring 3px
+  button "Scan the stream" focus ring 3px
+  button "Edit board" focus ring 3px
+  button "Details" focus ring 3px
+  button "Switch to the light theme" focus ring 3px
+  button "▲▲▲ High2" focus ring 3px
+  button "▲▲ Medium2" focus ring 3px
+  button "Unreviewed only4" focus ring 3px
+  button "Agent trail for the last sca" focus ring 3px
+  div "" focus ring 3px
+  div "" focus ring 3px
+  div "" focus ring 3px

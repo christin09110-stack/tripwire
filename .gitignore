@@ -1,0 +1,14 @@
+node_modules
+.build
+function.zip
+dist
+.local
+seed/scan-out.json
+.env
+.env.local
+
+# QA screenshots from the build rounds — not part of the project
+screenshots/
+shots/
+.shots/
+evidence/

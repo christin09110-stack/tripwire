@@ -1,0 +1,9 @@
+Payout items by final status: {"SUCCESS":47,"UNCLAIMED":9,"FAILED":2} (total 58)
+Payout batches: tw-seed-v1-pay-1=SUCCESS/10, tw-seed-v1-pay-2=SUCCESS/12, tw-seed-v1-pay-3=SUCCESS/11, tw-seed-v1-pay-4=SUCCESS/12, tw-seed-v1-pay-5=SUCCESS/13
+Invoices: 14; overdue (open, past due): 8; by status: {"UNPAID":11,"MARKED_AS_PAID":2,"CANCELLED":1}
+Captures: 18; refunded: 8; refunds/captures ratio: 0.444
+annual-plan/app captures: 9, refunded 7
+Disputes: 0
+Failures: 0
+
+Final: annual-plan/app refunded 7/9 (two returned REFUND_NOT_ALLOWED from the sandbox), plus 1 partial refund of support-hour; total refunded 8/18, ratio 0.444

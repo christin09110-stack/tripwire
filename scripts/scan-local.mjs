@@ -1,0 +1,17 @@
+import { readFileSync, writeFileSync } from 'node:fs';
+import { makeStore, memoryPrimitives } from '../backend/src/store.mjs';
+import { makeBedrock } from '../backend/src/bedrock.mjs';
+import { scan } from '../backend/src/watch.mjs';
+import { DATASET_IDS } from '../shared/datasets.mjs';
+const snap = JSON.parse(readFileSync(new URL('../seed/snapshot.json', import.meta.url)));
+const store = makeStore(memoryPrimitives());
+for (const d of DATASET_IDS) await store.putRows(d, snap.rows[d]);
+await store.putMeta('asOf', snap.asOf);
+const bedrock = process.argv.includes('--no-model') ? null : makeBedrock();
+const t0 = Date.now();
+const orig = store.step.bind(store); store.step = async (id, s) => { console.log('  ..', s.kind, s.tool || '', String(typeof s.detail === 'string' ? s.detail : JSON.stringify(s.detail)).slice(0, 220)); return orig(id, s); };
+const res = await scan({ store, bedrock, runId: 'r-local', useModel: !!bedrock });
+console.log(JSON.stringify(res), Math.round((Date.now() - t0) / 1000) + 's');
+const run = await store.getRun('r-local');
+for (const s of run.steps) console.log(`[${s.kind}${s.tool ? ':' + s.tool : ''}]`, String(typeof s.detail === 'string' ? s.detail : JSON.stringify(s.detail)).slice(0, 260));
+writeFileSync(new URL('../seed/scan-out.json', import.meta.url), JSON.stringify({ run, findings: await store.listFindings(), widgets: await store.listWidgets() }, null, 1));

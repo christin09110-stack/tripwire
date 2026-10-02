@@ -1,0 +1,1177 @@
+{
+  "createdAt": "2026-10-02T03:25:03.120Z",
+  "payoutBatches": [
+    {
+      "batchId": "FASX8DGX7AK84",
+      "senderBatchId": "tw-seed-v1-pay-1",
+      "label": "Tripwire seed payout batch 1",
+      "finalBatchStatus": "SUCCESS",
+      "items": [
+        {
+          "payoutItemId": "NMX4MST2QVK8A",
+          "senderItemId": "p1-1-fernwood-tea",
+          "receiver": "sb-patient@personal.example.com",
+          "recipientType": "EMAIL",
+          "amount": "43.00",
+          "currency": "USD",
+          "finalStatus": "SUCCESS",
+          "errorName": null,
+          "payeeLabel": "fernwood-tea",
+          "timeProcessed": "2026-10-02T03:25:29Z"
+        },
+        {
+          "payoutItemId": "GUVC5EBSL9DKU",
+          "senderItemId": "p1-2-brightwave-audio",
+          "receiver": "sb-patient@personal.example.com",
+          "recipientType": "EMAIL",
+          "amount": "115.00",
+          "currency": "USD",
+          "finalStatus": "SUCCESS",
+          "errorName": null,
+          "payeeLabel": "brightwave-audio",
+          "timeProcessed": "2026-10-02T03:25:29Z"
+        },
+        {
+          "payoutItemId": "8SXXH9AX9RE6E",
+          "senderItemId": "p1-3-copperkettle",
+          "receiver": "sb-patient@personal.example.com",
+          "recipientType": "EMAIL",
+          "amount": "143.00",
+          "currency": "USD",
+          "finalStatus": "SUCCESS",
+          "errorName": null,
+          "payeeLabel": "copperkettle",
+          "timeProcessed": "2026-10-02T03:25:29Z"
+        },
+        {
+          "payoutItemId": "N7CNEUE2C9XMC",
+          "senderItemId": "p1-4-tidepool-toys",
+          "receiver": "sb-patient@personal.example.com",
+          "recipientType": "EMAIL",
+          "amount": "441.50",
+          "currency": "USD",
+          "finalStatus": "SUCCESS",
+          "errorName": null,
+          "payeeLabel": "tidepool-toys",
+          "timeProcessed": "2026-10-02T03:25:29Z"
+        },
+        {
+          "payoutItemId": "XPHC6ZFVTP95U",
+          "senderItemId": "p1-5-ridgeback-gear",
+          "receiver": "sb-patient@personal.example.com",
+          "recipientType": "EMAIL",
+          "amount": "460.00",
+          "currency": "USD",
+          "finalStatus": "SUCCESS",
+          "errorName": null,
+          "payeeLabel": "ridgeback-gear",
+          "timeProcessed": "2026-10-02T03:25:29Z"
+        },
+        {
+          "payoutItemId": "2WN224JTCV39Y",
+          "senderItemId": "p1-6-saltmarsh-soap",
+          "receiver": "sb-patient@personal.example.com",
+          "recipientType": "EMAIL",
+          "amount": "215.00",
+          "currency": "USD",
+          "finalStatus": "SUCCESS",
+          "errorName": null,
+          "payeeLabel": "saltmarsh-soap",
+          "timeProcessed": "2026-10-02T03:25:29Z"
+        },
+        {
+          "payoutItemId": "KBQ3Y8ZEW92KL",
+          "senderItemId": "p1-7-paperkite-co",
+          "receiver": "sb-patient@personal.example.com",
+          "recipientType": "EMAIL",
+          "amount": "102.00",
+          "currency": "USD",
+          "finalStatus": "SUCCESS",
+          "errorName": null,
+          "payeeLabel": "paperkite-co",
+          "timeProcessed": "2026-10-02T03:25:29Z"
+        },
+        {
+          "payoutItemId": "NS9YMHVRM7NH6",
+          "senderItemId": "p1-8-wildroot-farm",
+          "receiver": "sb-patient@personal.example.com",
+          "recipientType": "EMAIL",
+          "amount": "93.00",
+          "currency": "USD",
+          "finalStatus": "SUCCESS",
+          "errorName": null,
+          "payeeLabel": "wildroot-farm",
+          "timeProcessed": "2026-10-02T03:25:29Z"
+        },
+        {
+          "payoutItemId": "BAHS8RP2FDVQ8",
+          "senderItemId": "p1-9-quillandink",
+          "receiver": "sb-patient@personal.example.com",
+          "recipientType": "EMAIL",
+          "amount": "370.50",
+          "currency": "USD",
+          "finalStatus": "SUCCESS",
+          "errorName": null,
+          "payeeLabel": "quillandink",
+          "timeProcessed": "2026-10-02T03:25:29Z"
+        },
+        {
+          "payoutItemId": "D9JUF2B7KDPP4",
+          "senderItemId": "p1-10-stonebridge-wood",
+          "receiver": "sb-patient@personal.example.com",
+          "recipientType": "EMAIL",
+          "amount": "379.50",
+          "currency": "USD",
+          "finalStatus": "SUCCESS",
+          "errorName": null,
+          "payeeLabel": "stonebridge-wood",
+          "timeProcessed": "2026-10-02T03:25:29Z"
+        }
+      ]
+    },
+    {
+      "batchId": "58AM2NSRUDVJN",
+      "senderBatchId": "tw-seed-v1-pay-2",
+      "label": "Tripwire seed payout batch 2",
+      "finalBatchStatus": "SUCCESS",
+      "items": [
+        {
+          "payoutItemId": "FG9TJW4UJ8G4G",
+          "senderItemId": "p2-1-wildroot-farm",
+          "receiver": "sb-patient@personal.example.com",
+          "recipientType": "EMAIL",
+          "amount": "82.00",
+          "currency": "USD",
+          "finalStatus": "SUCCESS",
+          "errorName": null,
+          "payeeLabel": "wildroot-farm",
+          "timeProcessed": "2026-10-02T03:25:30Z"
+        },
+        {
+          "payoutItemId": "YNVWHDE24UYBL",
+          "senderItemId": "p2-2-nordhaven-logistics",
+          "receiver": "accounts@nordhaven-logistics.example",
+          "recipientType": "EMAIL",
+          "amount": "212.50",
+          "currency": "USD",
+          "finalStatus": "UNCLAIMED",
+          "errorName": "RECEIVER_UNREGISTERED",
+          "payeeLabel": "nordhaven-logistics",
+          "timeProcessed": "2026-10-02T03:25:30Z"
+        },
+        {
+          "payoutItemId": "NKY4HZPLP3XJ6",
+          "senderItemId": "p2-3-quillandink",
+          "receiver": "sb-patient@personal.example.com",
+          "recipientType": "EMAIL",
+          "amount": "418.50",
+          "currency": "USD",
+          "finalStatus": "SUCCESS",
+          "errorName": null,
+          "payeeLabel": "quillandink",
+          "timeProcessed": "2026-10-02T03:25:30Z"
+        },
+        {
+          "payoutItemId": "YKWYBE4KJ24RE",
+          "senderItemId": "p2-4-stonebridge-wood",
+          "receiver": "sb-patient@personal.example.com",
+          "recipientType": "EMAIL",
+          "amount": "366.50",
+          "currency": "USD",
+          "finalStatus": "SUCCESS",
+          "errorName": null,
+          "payeeLabel": "stonebridge-wood",
+          "timeProcessed": "2026-10-02T03:25:30Z"
+        },
+        {
+          "payoutItemId": "AL2R5ZHB2DHWC",
+          "senderItemId": "p2-5-nordhaven-logistics",
+          "receiver": "accounts@nordhaven-logistics.example",
+          "recipientType": "EMAIL",
+          "amount": "340.00",
+          "currency": "USD",
+          "finalStatus": "UNCLAIMED",
+          "errorName": "RECEIVER_UNREGISTERED",
+          "payeeLabel": "nordhaven-logistics",
+          "timeProcessed": "2026-10-02T03:25:30Z"
+        },
+        {
+          "payoutItemId": "YTZN782JTYFAA",
+          "senderItemId": "p2-6-harbor-goods",
+          "receiver": "sb-patient@personal.example.com",
+          "recipientType": "EMAIL",
+          "amount": "178.50",
+          "currency": "USD",
+          "finalStatus": "SUCCESS",
+          "errorName": null,
+          "payeeLabel": "harbor-goods",
+          "timeProcessed": "2026-10-02T03:25:30Z"
+        },
+        {
+          "payoutItemId": "2648FQVAD4VAG",
+          "senderItemId": "p2-7-kestrel-freight",
+          "receiver": "billing@kestrel-freight.example",
+          "recipientType": "EMAIL",
+          "amount": "96.25",
+          "currency": "USD",
+          "finalStatus": "UNCLAIMED",
+          "errorName": "RECEIVER_UNREGISTERED",
+          "payeeLabel": "kestrel-freight",
+          "timeProcessed": "2026-10-02T03:25:30Z"
+        },
+        {
+          "payoutItemId": "B6EXV9Y7M73AC",
+          "senderItemId": "p2-8-lumen-crafts",
+          "receiver": "sb-patient@personal.example.com",
+          "recipientType": "EMAIL",
+          "amount": "390.50",
+          "currency": "USD",
+          "finalStatus": "SUCCESS",
+          "errorName": null,
+          "payeeLabel": "lumen-crafts",
+          "timeProcessed": "2026-10-02T03:25:29Z"
+        },
+        {
+          "payoutItemId": "Y577C59RG89YL",
+          "senderItemId": "p2-9-oakline-print",
+          "receiver": "sb-patient@personal.example.com",
+          "recipientType": "EMAIL",
+          "amount": "193.50",
+          "currency": "USD",
+          "finalStatus": "SUCCESS",
+          "errorName": null,
+          "payeeLabel": "oakline-print",
+          "timeProcessed": "2026-10-02T03:25:30Z"
+        },
+        {
+          "payoutItemId": "R6TFBVSC2NEJJ",
+          "senderItemId": "p2-10-unknown-id-a",
+          "receiver": "0",
+          "recipientType": "PAYPAL_ID",
+          "amount": "148.00",
+          "currency": "USD",
+          "finalStatus": "FAILED",
+          "errorName": "RECEIVER_ACCOUNT_INVALID",
+          "payeeLabel": "unknown-id-a",
+          "timeProcessed": null
+        },
+        {
+          "payoutItemId": "NFKRU6TU9SCZJ",
+          "senderItemId": "p2-11-fernwood-tea",
+          "receiver": "sb-patient@personal.example.com",
+          "recipientType": "EMAIL",
+          "amount": "176.50",
+          "currency": "USD",
+          "finalStatus": "SUCCESS",
+          "errorName": null,
+          "payeeLabel": "fernwood-tea",
+          "timeProcessed": "2026-10-02T03:25:31Z"
+        },
+        {
+          "payoutItemId": "FPCMSBPACZLRS",
+          "senderItemId": "p2-12-brightwave-audio",
+          "receiver": "sb-patient@personal.example.com",
+          "recipientType": "EMAIL",
+          "amount": "202.00",
+          "currency": "USD",
+          "finalStatus": "SUCCESS",
+          "errorName": null,
+          "payeeLabel": "brightwave-audio",
+          "timeProcessed": "2026-10-02T03:25:30Z"
+        }
+      ]
+    },
+    {
+      "batchId": "3STM4F5FQXDVY",
+      "senderBatchId": "tw-seed-v1-pay-3",
+      "label": "Tripwire seed payout batch 3",
+      "finalBatchStatus": "SUCCESS",
+      "items": [
+        {
+          "payoutItemId": "RVNRUDNF74QSY",
+          "senderItemId": "p3-1-quillandink",
+          "receiver": "sb-patient@personal.example.com",
+          "recipientType": "EMAIL",
+          "amount": "377.50",
+          "currency": "USD",
+          "finalStatus": "SUCCESS",
+          "errorName": null,
+          "payeeLabel": "quillandink",
+          "timeProcessed": "2026-10-02T03:25:31Z"
+        },
+        {
+          "payoutItemId": "AT94DPABA9HK2",
+          "senderItemId": "p3-2-stonebridge-wood",
+          "receiver": "sb-patient@personal.example.com",
+          "recipientType": "EMAIL",
+          "amount": "56.50",
+          "currency": "USD",
+          "finalStatus": "SUCCESS",
+          "errorName": null,
+          "payeeLabel": "stonebridge-wood",
+          "timeProcessed": "2026-10-02T03:25:31Z"
+        },
+        {
+          "payoutItemId": "YKQ7PVB48H5LU",
+          "senderItemId": "p3-3-harbor-goods",
+          "receiver": "sb-patient@personal.example.com",
+          "recipientType": "EMAIL",
+          "amount": "390.00",
+          "currency": "USD",
+          "finalStatus": "SUCCESS",
+          "errorName": null,
+          "payeeLabel": "harbor-goods",
+          "timeProcessed": "2026-10-02T03:25:31Z"
+        },
+        {
+          "payoutItemId": "PHW8XSXJ5TNFN",
+          "senderItemId": "p3-4-nordhaven-logistics",
+          "receiver": "accounts@nordhaven-logistics.example",
+          "recipientType": "EMAIL",
+          "amount": "455.75",
+          "currency": "USD",
+          "finalStatus": "UNCLAIMED",
+          "errorName": "RECEIVER_UNREGISTERED",
+          "payeeLabel": "nordhaven-logistics",
+          "timeProcessed": "2026-10-02T03:25:32Z"
+        },
+        {
+          "payoutItemId": "T8EG66HK9JASA",
+          "senderItemId": "p3-5-lumen-crafts",
+          "receiver": "sb-patient@personal.example.com",
+          "recipientType": "EMAIL",
+          "amount": "382.00",
+          "currency": "USD",
+          "finalStatus": "SUCCESS",
+          "errorName": null,
+          "payeeLabel": "lumen-crafts",
+          "timeProcessed": "2026-10-02T03:25:32Z"
+        },
+        {
+          "payoutItemId": "3B2J492YV6RZW",
+          "senderItemId": "p3-6-oakline-print",
+          "receiver": "sb-patient@personal.example.com",
+          "recipientType": "EMAIL",
+          "amount": "233.50",
+          "currency": "USD",
+          "finalStatus": "SUCCESS",
+          "errorName": null,
+          "payeeLabel": "oakline-print",
+          "timeProcessed": "2026-10-02T03:25:32Z"
+        },
+        {
+          "payoutItemId": "MZRFS5JMJLP6S",
+          "senderItemId": "p3-7-fernwood-tea",
+          "receiver": "sb-patient@personal.example.com",
+          "recipientType": "EMAIL",
+          "amount": "129.00",
+          "currency": "USD",
+          "finalStatus": "SUCCESS",
+          "errorName": null,
+          "payeeLabel": "fernwood-tea",
+          "timeProcessed": "2026-10-02T03:25:32Z"
+        },
+        {
+          "payoutItemId": "A8NNUW5WEKETS",
+          "senderItemId": "p3-8-unknown-id-b",
+          "receiver": "0",
+          "recipientType": "PAYPAL_ID",
+          "amount": "77.50",
+          "currency": "USD",
+          "finalStatus": "FAILED",
+          "errorName": "RECEIVER_ACCOUNT_INVALID",
+          "payeeLabel": "unknown-id-b",
+          "timeProcessed": null
+        },
+        {
+          "payoutItemId": "SQSSQZ57GYXGS",
+          "senderItemId": "p3-9-brightwave-audio",
+          "receiver": "sb-patient@personal.example.com",
+          "recipientType": "EMAIL",
+          "amount": "235.50",
+          "currency": "USD",
+          "finalStatus": "SUCCESS",
+          "errorName": null,
+          "payeeLabel": "brightwave-audio",
+          "timeProcessed": "2026-10-02T03:25:31Z"
+        },
+        {
+          "payoutItemId": "HDZUTHMXQ3BD8",
+          "senderItemId": "p3-10-copperkettle",
+          "receiver": "sb-patient@personal.example.com",
+          "recipientType": "EMAIL",
+          "amount": "368.00",
+          "currency": "USD",
+          "finalStatus": "SUCCESS",
+          "errorName": null,
+          "payeeLabel": "copperkettle",
+          "timeProcessed": "2026-10-02T03:25:31Z"
+        },
+        {
+          "payoutItemId": "WFCL2F8EC3SSC",
+          "senderItemId": "p3-11-tidepool-toys",
+          "receiver": "sb-patient@personal.example.com",
+          "recipientType": "EMAIL",
+          "amount": "260.00",
+          "currency": "USD",
+          "finalStatus": "SUCCESS",
+          "errorName": null,
+          "payeeLabel": "tidepool-toys",
+          "timeProcessed": "2026-10-02T03:25:31Z"
+        }
+      ]
+    },
+    {
+      "batchId": "J6SU5VNGBGZBY",
+      "senderBatchId": "tw-seed-v1-pay-4",
+      "label": "Tripwire seed payout batch 4",
+      "finalBatchStatus": "SUCCESS",
+      "items": [
+        {
+          "payoutItemId": "EUL9CAU8J4G94",
+          "senderItemId": "p4-1-oakline-print",
+          "receiver": "sb-patient@personal.example.com",
+          "recipientType": "EMAIL",
+          "amount": "230.00",
+          "currency": "USD",
+          "finalStatus": "SUCCESS",
+          "errorName": null,
+          "payeeLabel": "oakline-print",
+          "timeProcessed": "2026-10-02T03:25:32Z"
+        },
+        {
+          "payoutItemId": "YVCHKVCDGGQNU",
+          "senderItemId": "p4-2-fernwood-tea",
+          "receiver": "sb-patient@personal.example.com",
+          "recipientType": "EMAIL",
+          "amount": "333.50",
+          "currency": "USD",
+          "finalStatus": "SUCCESS",
+          "errorName": null,
+          "payeeLabel": "fernwood-tea",
+          "timeProcessed": "2026-10-02T03:25:32Z"
+        },
+        {
+          "payoutItemId": "HW4RALB9MW6QW",
+          "senderItemId": "p4-3-nordhaven-logistics",
+          "receiver": "accounts@nordhaven-logistics.example",
+          "recipientType": "EMAIL",
+          "amount": "180.00",
+          "currency": "USD",
+          "finalStatus": "UNCLAIMED",
+          "errorName": "RECEIVER_UNREGISTERED",
+          "payeeLabel": "nordhaven-logistics",
+          "timeProcessed": "2026-10-02T03:25:32Z"
+        },
+        {
+          "payoutItemId": "F3DTD54ZHT4S4",
+          "senderItemId": "p4-4-brightwave-audio",
+          "receiver": "sb-patient@personal.example.com",
+          "recipientType": "EMAIL",
+          "amount": "367.00",
+          "currency": "USD",
+          "finalStatus": "SUCCESS",
+          "errorName": null,
+          "payeeLabel": "brightwave-audio",
+          "timeProcessed": "2026-10-02T03:25:32Z"
+        },
+        {
+          "payoutItemId": "7HLKJ8Y8V2WAN",
+          "senderItemId": "p4-5-copperkettle",
+          "receiver": "sb-patient@personal.example.com",
+          "recipientType": "EMAIL",
+          "amount": "237.00",
+          "currency": "USD",
+          "finalStatus": "SUCCESS",
+          "errorName": null,
+          "payeeLabel": "copperkettle",
+          "timeProcessed": "2026-10-02T03:25:32Z"
+        },
+        {
+          "payoutItemId": "9Q35FPF7TYCMG",
+          "senderItemId": "p4-6-nordhaven-logistics",
+          "receiver": "accounts@nordhaven-logistics.example",
+          "recipientType": "EMAIL",
+          "amount": "289.40",
+          "currency": "USD",
+          "finalStatus": "UNCLAIMED",
+          "errorName": "RECEIVER_UNREGISTERED",
+          "payeeLabel": "nordhaven-logistics",
+          "timeProcessed": "2026-10-02T03:25:32Z"
+        },
+        {
+          "payoutItemId": "U6AY9B7S4WNTJ",
+          "senderItemId": "p4-7-tidepool-toys",
+          "receiver": "sb-patient@personal.example.com",
+          "recipientType": "EMAIL",
+          "amount": "422.50",
+          "currency": "USD",
+          "finalStatus": "SUCCESS",
+          "errorName": null,
+          "payeeLabel": "tidepool-toys",
+          "timeProcessed": "2026-10-02T03:25:32Z"
+        },
+        {
+          "payoutItemId": "ET8TYPTH442C8",
+          "senderItemId": "p4-8-ridgeback-gear",
+          "receiver": "sb-patient@personal.example.com",
+          "recipientType": "EMAIL",
+          "amount": "395.50",
+          "currency": "USD",
+          "finalStatus": "SUCCESS",
+          "errorName": null,
+          "payeeLabel": "ridgeback-gear",
+          "timeProcessed": "2026-10-02T03:25:32Z"
+        },
+        {
+          "payoutItemId": "89Q9WT7YPJ5TJ",
+          "senderItemId": "p4-9-greywell-supply",
+          "receiver": "pay@greywell-supply.example.org",
+          "recipientType": "EMAIL",
+          "amount": "310.00",
+          "currency": "USD",
+          "finalStatus": "UNCLAIMED",
+          "errorName": "RECEIVER_UNREGISTERED",
+          "payeeLabel": "greywell-supply",
+          "timeProcessed": "2026-10-02T03:25:32Z"
+        },
+        {
+          "payoutItemId": "8Z6VFRMY2Z4G2",
+          "senderItemId": "p4-10-saltmarsh-soap",
+          "receiver": "sb-patient@personal.example.com",
+          "recipientType": "EMAIL",
+          "amount": "354.50",
+          "currency": "USD",
+          "finalStatus": "SUCCESS",
+          "errorName": null,
+          "payeeLabel": "saltmarsh-soap",
+          "timeProcessed": "2026-10-02T03:25:32Z"
+        },
+        {
+          "payoutItemId": "5JL76BAJEMXBN",
+          "senderItemId": "p4-11-paperkite-co",
+          "receiver": "sb-patient@personal.example.com",
+          "recipientType": "EMAIL",
+          "amount": "400.50",
+          "currency": "USD",
+          "finalStatus": "SUCCESS",
+          "errorName": null,
+          "payeeLabel": "paperkite-co",
+          "timeProcessed": "2026-10-02T03:25:32Z"
+        },
+        {
+          "payoutItemId": "MZRGGDKJQRC26",
+          "senderItemId": "p4-12-wildroot-farm",
+          "receiver": "sb-patient@personal.example.com",
+          "recipientType": "EMAIL",
+          "amount": "78.50",
+          "currency": "USD",
+          "finalStatus": "SUCCESS",
+          "errorName": null,
+          "payeeLabel": "wildroot-farm",
+          "timeProcessed": "2026-10-02T03:25:32Z"
+        }
+      ]
+    },
+    {
+      "batchId": "H3GJ9GXXBBREN",
+      "senderBatchId": "tw-seed-v1-pay-5",
+      "label": "Tripwire seed payout batch 5",
+      "finalBatchStatus": "SUCCESS",
+      "items": [
+        {
+          "payoutItemId": "QA84V5V49368Q",
+          "senderItemId": "p5-1-brightwave-audio",
+          "receiver": "sb-patient@personal.example.com",
+          "recipientType": "EMAIL",
+          "amount": "142.50",
+          "currency": "USD",
+          "finalStatus": "SUCCESS",
+          "errorName": null,
+          "payeeLabel": "brightwave-audio",
+          "timeProcessed": "2026-10-02T03:25:33Z"
+        },
+        {
+          "payoutItemId": "7WGSGF452645S",
+          "senderItemId": "p5-2-copperkettle",
+          "receiver": "sb-patient@personal.example.com",
+          "recipientType": "EMAIL",
+          "amount": "142.00",
+          "currency": "USD",
+          "finalStatus": "SUCCESS",
+          "errorName": null,
+          "payeeLabel": "copperkettle",
+          "timeProcessed": "2026-10-02T03:25:32Z"
+        },
+        {
+          "payoutItemId": "TYFGUD4AWH3LS",
+          "senderItemId": "p5-3-tidepool-toys",
+          "receiver": "sb-patient@personal.example.com",
+          "recipientType": "EMAIL",
+          "amount": "260.50",
+          "currency": "USD",
+          "finalStatus": "SUCCESS",
+          "errorName": null,
+          "payeeLabel": "tidepool-toys",
+          "timeProcessed": "2026-10-02T03:25:32Z"
+        },
+        {
+          "payoutItemId": "XJTQ5AR52Q7UJ",
+          "senderItemId": "p5-4-nordhaven-logistics",
+          "receiver": "accounts@nordhaven-logistics.example",
+          "recipientType": "EMAIL",
+          "amount": "398.90",
+          "currency": "USD",
+          "finalStatus": "UNCLAIMED",
+          "errorName": "RECEIVER_UNREGISTERED",
+          "payeeLabel": "nordhaven-logistics",
+          "timeProcessed": "2026-10-02T03:25:33Z"
+        },
+        {
+          "payoutItemId": "LDUAXNJ477ZS4",
+          "senderItemId": "p5-5-ridgeback-gear",
+          "receiver": "sb-patient@personal.example.com",
+          "recipientType": "EMAIL",
+          "amount": "359.00",
+          "currency": "USD",
+          "finalStatus": "SUCCESS",
+          "errorName": null,
+          "payeeLabel": "ridgeback-gear",
+          "timeProcessed": "2026-10-02T03:25:33Z"
+        },
+        {
+          "payoutItemId": "385AF87VMYBWS",
+          "senderItemId": "p5-6-saltmarsh-soap",
+          "receiver": "sb-patient@personal.example.com",
+          "recipientType": "EMAIL",
+          "amount": "196.00",
+          "currency": "USD",
+          "finalStatus": "SUCCESS",
+          "errorName": null,
+          "payeeLabel": "saltmarsh-soap",
+          "timeProcessed": "2026-10-02T03:25:33Z"
+        },
+        {
+          "payoutItemId": "WN7BPK7WHTMQ2",
+          "senderItemId": "p5-7-paperkite-co",
+          "receiver": "sb-patient@personal.example.com",
+          "recipientType": "EMAIL",
+          "amount": "206.00",
+          "currency": "USD",
+          "finalStatus": "SUCCESS",
+          "errorName": null,
+          "payeeLabel": "paperkite-co",
+          "timeProcessed": "2026-10-02T03:25:33Z"
+        },
+        {
+          "payoutItemId": "S3JZXTX23K53E",
+          "senderItemId": "p5-8-wildroot-farm",
+          "receiver": "sb-patient@personal.example.com",
+          "recipientType": "EMAIL",
+          "amount": "92.50",
+          "currency": "USD",
+          "finalStatus": "SUCCESS",
+          "errorName": null,
+          "payeeLabel": "wildroot-farm",
+          "timeProcessed": "2026-10-02T03:25:33Z"
+        },
+        {
+          "payoutItemId": "NKWF29Y9GLBWE",
+          "senderItemId": "p5-9-marlowe-and-sons",
+          "receiver": "ops@marlowe-and-sons.example",
+          "recipientType": "EMAIL",
+          "amount": "58.75",
+          "currency": "USD",
+          "finalStatus": "UNCLAIMED",
+          "errorName": "RECEIVER_UNREGISTERED",
+          "payeeLabel": "marlowe-and-sons",
+          "timeProcessed": "2026-10-02T03:25:33Z"
+        },
+        {
+          "payoutItemId": "P7CWJYRZKUZ62",
+          "senderItemId": "p5-10-quillandink",
+          "receiver": "sb-patient@personal.example.com",
+          "recipientType": "EMAIL",
+          "amount": "77.00",
+          "currency": "USD",
+          "finalStatus": "SUCCESS",
+          "errorName": null,
+          "payeeLabel": "quillandink",
+          "timeProcessed": "2026-10-02T03:25:33Z"
+        },
+        {
+          "payoutItemId": "MCE5XZCNW5PVJ",
+          "senderItemId": "p5-11-stonebridge-wood",
+          "receiver": "sb-patient@personal.example.com",
+          "recipientType": "EMAIL",
+          "amount": "132.50",
+          "currency": "USD",
+          "finalStatus": "SUCCESS",
+          "errorName": null,
+          "payeeLabel": "stonebridge-wood",
+          "timeProcessed": "2026-10-02T03:25:33Z"
+        },
+        {
+          "payoutItemId": "5VXHWVY93HHCW",
+          "senderItemId": "p5-12-harbor-goods",
+          "receiver": "sb-patient@personal.example.com",
+          "recipientType": "EMAIL",
+          "amount": "263.50",
+          "currency": "USD",
+          "finalStatus": "SUCCESS",
+          "errorName": null,
+          "payeeLabel": "harbor-goods",
+          "timeProcessed": "2026-10-02T03:25:33Z"
+        },
+        {
+          "payoutItemId": "9QXUCTS6WTJEW",
+          "senderItemId": "p5-13-lumen-crafts",
+          "receiver": "sb-patient@personal.example.com",
+          "recipientType": "EMAIL",
+          "amount": "289.00",
+          "currency": "USD",
+          "finalStatus": "SUCCESS",
+          "errorName": null,
+          "payeeLabel": "lumen-crafts",
+          "timeProcessed": "2026-10-02T03:25:33Z"
+        }
+      ]
+    }
+  ],
+  "invoices": [
+    {
+      "id": "INV2-YXU5-GJ4W-H2LC-9FJX",
+      "number": "TW-INV-001",
+      "status": "UNPAID",
+      "invoiceDate": "2026-09-14",
+      "dueDate": "2026-09-29",
+      "amount": "240.00",
+      "currency": "USD",
+      "recipientEmail": "marta.okafor@example.com",
+      "terms": "NET_15"
+    },
+    {
+      "id": "INV2-YLVU-VEXJ-EDA7-F5TV",
+      "number": "TW-INV-002",
+      "status": "UNPAID",
+      "invoiceDate": "2026-08-27",
+      "dueDate": "2026-09-26",
+      "amount": "120.00",
+      "currency": "USD",
+      "recipientEmail": "dev.lindqvist@example.org",
+      "terms": "NET_30"
+    },
+    {
+      "id": "INV2-GHKG-VG94-XYTB-JJ8Y",
+      "number": "TW-INV-003",
+      "status": "UNPAID",
+      "invoiceDate": "2026-08-21",
+      "dueDate": "2026-09-20",
+      "amount": "560.00",
+      "currency": "USD",
+      "recipientEmail": "priya.castellanos@example.com",
+      "terms": "NET_30"
+    },
+    {
+      "id": "INV2-3CQX-NJEP-JJY6-TDNJ",
+      "number": "TW-INV-004",
+      "status": "UNPAID",
+      "invoiceDate": "2026-08-28",
+      "dueDate": "2026-09-12",
+      "amount": "385.00",
+      "currency": "USD",
+      "recipientEmail": "tomas.brevik@example.org",
+      "terms": "NET_15"
+    },
+    {
+      "id": "INV2-DSR3-LSDH-83X4-44SJ",
+      "number": "TW-INV-005",
+      "status": "UNPAID",
+      "invoiceDate": "2026-08-05",
+      "dueDate": "2026-09-04",
+      "amount": "910.00",
+      "currency": "USD",
+      "recipientEmail": "aisha.whitcombe@example.com",
+      "terms": "NET_30"
+    },
+    {
+      "id": "INV2-A5JU-9RQZ-XYPS-XE8D",
+      "number": "TW-INV-006",
+      "status": "UNPAID",
+      "invoiceDate": "2026-07-26",
+      "dueDate": "2026-08-25",
+      "amount": "1450.00",
+      "currency": "USD",
+      "recipientEmail": "joon.marchetti@example.org",
+      "terms": "NET_30"
+    },
+    {
+      "id": "INV2-QMEA-CUKA-XRMX-9KRG",
+      "number": "TW-INV-007",
+      "status": "UNPAID",
+      "invoiceDate": "2026-07-19",
+      "dueDate": "2026-08-18",
+      "amount": "1800.00",
+      "currency": "USD",
+      "recipientEmail": "elena.duarte@example.com",
+      "terms": "NET_30"
+    },
+    {
+      "id": "INV2-S93N-KTAQ-7KPY-E7ZP",
+      "number": "TW-INV-008",
+      "status": "UNPAID",
+      "invoiceDate": "2026-08-15",
+      "dueDate": "2026-08-30",
+      "amount": "675.00",
+      "currency": "USD",
+      "recipientEmail": "sam.hargreave@example.org",
+      "terms": "NET_15"
+    },
+    {
+      "id": "INV2-JUWB-RCHC-HAXE-9FU4",
+      "number": "TW-INV-009",
+      "status": "UNPAID",
+      "invoiceDate": "2026-09-22",
+      "dueDate": "2026-10-07",
+      "amount": "330.00",
+      "currency": "USD",
+      "recipientEmail": "noor.pellegrino@example.com",
+      "terms": "NET_15"
+    },
+    {
+      "id": "INV2-AS6S-LTX6-22PB-74MQ",
+      "number": "TW-INV-010",
+      "status": "UNPAID",
+      "invoiceDate": "2026-09-14",
+      "dueDate": "2026-10-14",
+      "amount": "780.00",
+      "currency": "USD",
+      "recipientEmail": "callum.adeyemi@example.org",
+      "terms": "NET_30"
+    },
+    {
+      "id": "INV2-XB42-CPGS-K4NC-7JNT",
+      "number": "TW-INV-011",
+      "status": "UNPAID",
+      "invoiceDate": "2026-09-22",
+      "dueDate": "2026-10-22",
+      "amount": "1150.00",
+      "currency": "USD",
+      "recipientEmail": "ines.vandermeer@example.com",
+      "terms": "NET_30"
+    },
+    {
+      "id": "INV2-SNQT-P4MQ-PMZT-FDPZ",
+      "number": "TW-INV-012",
+      "status": "MARKED_AS_PAID",
+      "invoiceDate": "2026-08-18",
+      "dueDate": "2026-09-17",
+      "amount": "450.00",
+      "currency": "USD",
+      "recipientEmail": "rafi.koskinen@example.org",
+      "terms": "NET_30"
+    },
+    {
+      "id": "INV2-VEDV-BNNH-H3GH-GQJ5",
+      "number": "TW-INV-013",
+      "status": "MARKED_AS_PAID",
+      "invoiceDate": "2026-09-20",
+      "dueDate": "2026-10-05",
+      "amount": "215.00",
+      "currency": "USD",
+      "recipientEmail": "lucia.thornbury@example.com",
+      "terms": "NET_15"
+    },
+    {
+      "id": "INV2-SG37-VL4T-DH6X-SFLQ",
+      "number": "TW-INV-014",
+      "status": "CANCELLED",
+      "invoiceDate": "2026-08-23",
+      "dueDate": "2026-09-22",
+      "amount": "600.00",
+      "currency": "USD",
+      "recipientEmail": "owen.takahashi@example.org",
+      "terms": "NET_30"
+    }
+  ],
+  "captures": [
+    {
+      "orderId": "4DR951121Y888662F",
+      "captureId": "322858384U035171M",
+      "status": "COMPLETED",
+      "amount": "79.00",
+      "currency": "USD",
+      "customId": "channel:app;item:annual-plan",
+      "channel": "app",
+      "item": "annual-plan",
+      "createTime": "2026-10-02T03:27:09Z",
+      "refunds": [
+        {
+          "refundId": "20583363GA359122H",
+          "status": "COMPLETED",
+          "amount": "79.00",
+          "reason": "Charged twice"
+        }
+      ]
+    },
+    {
+      "orderId": "9UT29741TU965022J",
+      "captureId": "1FP631170F9276359",
+      "status": "COMPLETED",
+      "amount": "19.00",
+      "currency": "USD",
+      "customId": "channel:web;item:starter-pack",
+      "channel": "web",
+      "item": "starter-pack",
+      "createTime": "2026-10-02T03:27:15Z",
+      "refunds": []
+    },
+    {
+      "orderId": "64503302VP4498733",
+      "captureId": "8Y433777YJ602405T",
+      "status": "COMPLETED",
+      "amount": "84.50",
+      "currency": "USD",
+      "customId": "channel:app;item:annual-plan",
+      "channel": "app",
+      "item": "annual-plan",
+      "createTime": "2026-10-02T03:27:18Z",
+      "refunds": [
+        {
+          "refundId": "21N346591S778203P",
+          "status": "COMPLETED",
+          "amount": "84.50",
+          "reason": "Did not mean to renew"
+        }
+      ]
+    },
+    {
+      "orderId": "0JU713137K6853329",
+      "captureId": "56N32089716065039",
+      "status": "COMPLETED",
+      "amount": "24.50",
+      "currency": "USD",
+      "customId": "channel:pos;item:starter-pack",
+      "channel": "pos",
+      "item": "starter-pack",
+      "createTime": "2026-10-02T03:27:23Z",
+      "refunds": []
+    },
+    {
+      "orderId": "4AX87329997529530",
+      "captureId": "07923246Y9467713P",
+      "status": "COMPLETED",
+      "amount": "99.00",
+      "currency": "USD",
+      "customId": "channel:app;item:annual-plan",
+      "channel": "app",
+      "item": "annual-plan",
+      "createTime": "2026-10-02T03:27:27Z",
+      "refunds": []
+    },
+    {
+      "orderId": "68R841773R752521L",
+      "captureId": "8YH02247DV113600V",
+      "status": "COMPLETED",
+      "amount": "45.00",
+      "currency": "USD",
+      "customId": "channel:web;item:add-on-seats",
+      "channel": "web",
+      "item": "add-on-seats",
+      "createTime": "2026-10-02T03:27:32Z",
+      "refunds": []
+    },
+    {
+      "orderId": "944023871K043222Y",
+      "captureId": "0SN62775MD2743449",
+      "status": "COMPLETED",
+      "amount": "89.00",
+      "currency": "USD",
+      "customId": "channel:app;item:annual-plan",
+      "channel": "app",
+      "item": "annual-plan",
+      "createTime": "2026-10-02T03:27:35Z",
+      "refunds": [
+        {
+          "refundId": "6P234222GV454821R",
+          "status": "COMPLETED",
+          "amount": "89.00",
+          "reason": "Charged twice"
+        }
+      ]
+    },
+    {
+      "orderId": "0B797498UL1993408",
+      "captureId": "41G41858P7226062T",
+      "status": "COMPLETED",
+      "amount": "38.00",
+      "currency": "USD",
+      "customId": "channel:pos;item:add-on-seats",
+      "channel": "pos",
+      "item": "add-on-seats",
+      "createTime": "2026-10-02T03:27:39Z",
+      "refunds": []
+    },
+    {
+      "orderId": "14L02456DJ194223G",
+      "captureId": "0J544375F0437750L",
+      "status": "COMPLETED",
+      "amount": "79.00",
+      "currency": "USD",
+      "customId": "channel:app;item:annual-plan",
+      "channel": "app",
+      "item": "annual-plan",
+      "createTime": "2026-10-02T03:27:42Z",
+      "refunds": [
+        {
+          "refundId": "75C3686427119250N",
+          "status": "COMPLETED",
+          "amount": "79.00",
+          "reason": "Did not mean to renew"
+        }
+      ]
+    },
+    {
+      "orderId": "90769518WL504215H",
+      "captureId": "0RS891052G239832E",
+      "status": "COMPLETED",
+      "amount": "120.00",
+      "currency": "USD",
+      "customId": "channel:web;item:support-hour",
+      "channel": "web",
+      "item": "support-hour",
+      "createTime": "2026-10-02T03:27:48Z",
+      "refunds": [
+        {
+          "refundId": "81047286RU002152D",
+          "status": "COMPLETED",
+          "amount": "60.00",
+          "reason": "Partial credit for unused hours"
+        }
+      ]
+    },
+    {
+      "orderId": "98864398EY767914E",
+      "captureId": "9YG697872X8263608",
+      "status": "COMPLETED",
+      "amount": "92.25",
+      "currency": "USD",
+      "customId": "channel:app;item:annual-plan",
+      "channel": "app",
+      "item": "annual-plan",
+      "createTime": "2026-10-02T03:27:53Z",
+      "refunds": [
+        {
+          "refundId": "0783348649788235W",
+          "status": "COMPLETED",
+          "amount": "92.25",
+          "reason": "Price changed at renewal"
+        }
+      ]
+    },
+    {
+      "orderId": "3N372210X89106815",
+      "captureId": "89R07461HT1619259",
+      "status": "COMPLETED",
+      "amount": "140.00",
+      "currency": "USD",
+      "customId": "channel:pos;item:support-hour",
+      "channel": "pos",
+      "item": "support-hour",
+      "createTime": "2026-10-02T03:27:59Z",
+      "refunds": []
+    },
+    {
+      "orderId": "0VN19880S5160950D",
+      "captureId": "5US29793MJ1561118",
+      "status": "COMPLETED",
+      "amount": "95.00",
+      "currency": "USD",
+      "customId": "channel:app;item:annual-plan",
+      "channel": "app",
+      "item": "annual-plan",
+      "createTime": "2026-10-02T03:28:02Z",
+      "refunds": [
+        {
+          "refundId": "7HT95452UF087191C",
+          "status": "COMPLETED",
+          "amount": "95.00",
+          "reason": "Charged twice"
+        }
+      ]
+    },
+    {
+      "orderId": "83A72011GB0293257",
+      "captureId": "6D820020VN9360929",
+      "status": "COMPLETED",
+      "amount": "9.00",
+      "currency": "USD",
+      "customId": "channel:web;item:starter-pack",
+      "channel": "web",
+      "item": "starter-pack",
+      "createTime": "2026-10-02T03:28:07Z",
+      "refunds": []
+    },
+    {
+      "orderId": "06L16199L79712241",
+      "captureId": "6A28898375656194E",
+      "status": "COMPLETED",
+      "amount": "85.00",
+      "currency": "USD",
+      "customId": "channel:app;item:annual-plan",
+      "channel": "app",
+      "item": "annual-plan",
+      "createTime": "2026-10-02T03:28:10Z",
+      "refunds": [
+        {
+          "refundId": "5D585331HJ4206822",
+          "status": "COMPLETED",
+          "amount": "85.00",
+          "reason": "Did not mean to renew"
+        }
+      ]
+    },
+    {
+      "orderId": "4S857021010300649",
+      "captureId": "4XP698470Y244191V",
+      "status": "COMPLETED",
+      "amount": "60.00",
+      "currency": "USD",
+      "customId": "channel:web;item:add-on-seats",
+      "channel": "web",
+      "item": "add-on-seats",
+      "createTime": "2026-10-02T03:28:16Z",
+      "refunds": []
+    },
+    {
+      "orderId": "8AW56703V5370073K",
+      "captureId": "4FP50223WU826453R",
+      "status": "COMPLETED",
+      "amount": "99.00",
+      "currency": "USD",
+      "customId": "channel:app;item:annual-plan",
+      "channel": "app",
+      "item": "annual-plan",
+      "createTime": "2026-10-02T03:28:18Z",
+      "refunds": []
+    },
+    {
+      "orderId": "77905641WA449542M",
+      "captureId": "32V00025DP796631F",
+      "status": "COMPLETED",
+      "amount": "72.00",
+      "currency": "USD",
+      "customId": "channel:pos;item:support-hour",
+      "channel": "pos",
+      "item": "support-hour",
+      "createTime": "2026-10-02T03:28:21Z",
+      "refunds": []
+    }
+  ],
+  "disputes": {
+    "count": 0
+  },
+  "failures": [
+    "refund of annual-plan captures 07923246Y9467713P and 8AW56703V5370073K returned 422 REFUND_NOT_ALLOWED persistently (retried with new request ids, also tried omitting amount); left unrefunded"
+  ]
+}
