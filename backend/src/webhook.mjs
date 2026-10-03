@@ -1,4 +1,4 @@
-// Webhook intake. PayPal webhooks are per app, so this endpoint also receives events for the other projects on the same
+// Webhook intake. PayPal webhooks are per app, so this endpoint also receives events that do not belong to this same
 // app. Everything gets a 200 immediately; the event is persisted raw, then (asynchronously) filtered to our own resource
 // ids, verified with PayPal's verify-webhook-signature endpoint, and only then ingested.
 import { payoutRows, invoiceRow, captureRow, disputeRow } from './ingest.mjs';

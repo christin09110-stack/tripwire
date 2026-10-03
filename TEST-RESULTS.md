@@ -35,7 +35,7 @@ Everything below was run on 2026-10-02 against the deployed stack or the local c
 ✔ matches supports scalars, lists and range objects
 ✔ intake keeps the PayPal signature headers and the untouched body for later verification
 ✔ resourceIds collects ids from payout, invoice and capture shaped events
-✔ an event for another project on the same PayPal app is acknowledged and ignored, with no verify call
+✔ an event that does not belong to this stream is acknowledged and ignored, with no verify call
 ✔ our event is verified with PayPal, then ingested, and the stream head moves
 ✔ a tampered payload is rejected: PayPal says FAILURE, nothing is ingested
 ✔ a body that is not JSON is rejected without calling PayPal

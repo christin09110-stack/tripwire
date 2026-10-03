@@ -108,7 +108,7 @@ export function DetailsDialog({ open, onClose, onActivity }) {
         </section>
         <section>
           <h3>Webhooks</h3>
-          {d ? <><p className="muted">{d.webhookConfigured ? 'Receiving PayPal events. Events for other projects on the same app are acknowledged and ignored.' : 'No webhook is registered for this deployment.'}</p>
+          {d ? <><p className="muted">{d.webhookConfigured ? 'Receiving PayPal events. Events that do not belong to this stream are acknowledged and ignored.' : 'No webhook is registered for this deployment.'}</p>
             <table className="tbl"><thead><tr><th>Received</th><th>Result</th><th>Event</th></tr></thead><tbody>
               {d.webhooks.last.length ? d.webhooks.last.map((h, i) => <tr key={i}><td>{dt(h.receivedAt)}</td><td>{sentence(h.status)}</td><td>{h.eventType || ''}</td></tr>) : <tr><td colSpan="3" className="muted">No deliveries yet.</td></tr>}
             </tbody></table></> : null}
